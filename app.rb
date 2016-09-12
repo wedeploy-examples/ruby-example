@@ -2,6 +2,6 @@ require 'sinatra'
 
 class HelloWorldApp < Sinatra::Base
   get '/' do
-    "Hello, world!"
+    erb :home
   end
 end
